@@ -2709,7 +2709,7 @@ fs-extra@^1.0.0:
     jsonfile "^2.1.0"
     klaw "^1.0.0"
 
-fs-extra@^7.0.0:
+fs-extra@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
   integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
@@ -4683,12 +4683,12 @@ parcel-plugin-bundle-visualiser@^1.2.0:
     gzip-size "^4.1.0"
     yargs "^11.0.0"
 
-parcel-plugin-svg-sprite@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-svg-sprite/-/parcel-plugin-svg-sprite-1.1.0.tgz#239373f08cfee5844d96aecd1003628a942d0373"
-  integrity sha512-siaRL9cMj3XAb9WRkiyXehsXbM8g/8il/djlCdESVG1d0yWY2EcJkxkeMds2l/dn5GdcECsfliN9kV4kCSAqPQ==
+parcel-plugin-svg-sprite@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-svg-sprite/-/parcel-plugin-svg-sprite-1.1.1.tgz#a31445706df6d72ae5ae1afd6f68b2d5fc79a05e"
+  integrity sha512-itpVPYCD0ZpfrAaA2SNwAnU004enVU2m3BYbo0wByf5fXQWgEcqPKQr8KRdvR+IlghYIRhqduUo7DbgQoiV1+A==
   dependencies:
-    fs-extra "^7.0.0"
+    fs-extra "^7.0.1"
     lodash "^4.17.11"
     posthtml "^0.11.3"
     svg-sprite "^1.5.0"
@@ -5482,10 +5482,10 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@^1.16.3:
-  version "1.16.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.3.tgz#8c62168453badef702f34b45b6ee899574a6a65d"
-  integrity sha512-kn/GU6SMRYPxUakNXhpP0EedT/KmaPzr0H5lIsDogrykbaxOpOfAFfk5XA7DZrJyMAv1wlMV3CPcZruGXVVUZw==
+prettier@^1.16.4:
+  version "1.16.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
+  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
 
 prettysize@^1.1.0:
   version "1.1.0"
