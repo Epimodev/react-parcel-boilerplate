@@ -17,8 +17,7 @@
     }
   },
   "alias": {
-    "src": "./src",
-    "assets": "./assets"
+    "src": "./src"
   },
   "devDependencies": {
     "@types/react": "^16.8.2",
