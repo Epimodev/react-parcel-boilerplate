@@ -24,17 +24,17 @@
     "src": "./src"
   },
   "devDependencies": {
-    "@types/react": "^16.8.17",
+    "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "autoprefixer": "^9.5.1",
-    "husky": "^2.2.0",
+    "husky": "^2.3.0",
     "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "parcel-plugin-compress": "^1.0.9",
-    "parcel-plugin-svg-sprite": "^1.1.2",
+    "parcel-plugin-svg-sprite": "^1.2.0",
     "postcss-modules": "^1.4.1",
-    "prettier": "^1.17.0",
+    "prettier": "^1.17.1",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.4.5"
@@ -42,5 +42,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "svgSpriteOptions": {
+    "exclude": [
+      "**/fonts/**/*"
+    ]
   }
 }
