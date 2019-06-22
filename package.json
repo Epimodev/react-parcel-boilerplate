@@ -24,10 +24,10 @@
     "src": "./src"
   },
   "devDependencies": {
-    "@types/react": "^16.8.19",
+    "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "autoprefixer": "^9.6.0",
-    "husky": "^2.4.0",
+    "husky": "^2.4.1",
     "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
@@ -36,9 +36,9 @@
     "postcss-modules": "^1.4.1",
     "prettier": "^1.18.2",
     "sass": "^1.21.0",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.2"
   },
   "dependencies": {
     "react": "^16.8.6",
