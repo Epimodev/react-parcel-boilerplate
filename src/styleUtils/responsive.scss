@@ -1,11 +1,17 @@
-@mixin phone {
-  @media only screen and (max-width: 400px) {
+@mixin widthLessThan($width) {
+  @media only screen and (max-width: $width) {
     @content;
   }
 }
 
-@mixin tablet {
-  @media only screen and (max-width: 768px) {
+@mixin phone {
+  @include widthLessThan(400px) {
     @content;
-  }
+  };
+}
+
+@mixin tablet {
+  @include widthLessThan(768px) {
+    @content;
+  };
 }
