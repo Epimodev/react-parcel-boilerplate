@@ -12,12 +12,12 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "rm -rf ./dist && parcel build src/index.html",
-    "lint": "tslint -c tslint.json 'src/**/*.ts?(x)'",
-    "check-format": "prettier --list-different 'src/**/*.ts?(x)'"
+    "pre-commit": "lint-staged",
+    "commit": "yarn pre-commit && git-cz"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint && yarn check-format"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
   },
   "alias": {
@@ -27,7 +27,8 @@
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
     "autoprefixer": "^9.6.1",
-    "husky": "^3.0.2",
+    "commitizen": "^4.0.3",
+    "lint-staged": "^9.4.0",
     "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
