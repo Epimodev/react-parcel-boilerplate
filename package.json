@@ -11,6 +11,7 @@
   "engineStrict": true,
   "scripts": {
     "start": "parcel src/index.html",
+    "test": "jest",
     "build": "rm -rf ./dist && parcel build src/index.html",
     "pre-commit": "lint-staged",
     "commit": "yarn pre-commit && git-cz"
@@ -24,10 +25,12 @@
     "src": "./src"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
     "autoprefixer": "^9.6.1",
     "commitizen": "^4.0.3",
+    "jest": "^24.9.0",
     "lint-staged": "^9.4.0",
     "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.3",
@@ -37,6 +40,7 @@
     "postcss-modules": "^1.4.1",
     "prettier": "^1.18.2",
     "sass": "^1.22.9",
+    "ts-jest": "^24.1.0",
     "tslint": "^5.18.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.5.3"
