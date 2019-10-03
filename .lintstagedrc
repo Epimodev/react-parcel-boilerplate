@@ -1,5 +1,5 @@
 {
-  "app/**/*.{ts,tsx}": [
+  "src/**/*.{ts,tsx}": [
     "prettier --write",
     "tslint -c tslint.json",
     "git add"
