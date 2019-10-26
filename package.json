@@ -11,6 +11,7 @@
   "engineStrict": true,
   "scripts": {
     "start": "parcel src/index.html",
+    "check-types": "tsc --noEmit",
     "test": "jest",
     "build": "rm -rf ./dist && parcel build src/index.html",
     "pre-commit": "lint-staged",
