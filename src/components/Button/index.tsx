@@ -1,10 +1,12 @@
 import { createElement } from 'react';
-import * as style from './style.scss';
+import style from './style.scss';
 
 interface Props {
   children: string;
   onClick: () => void;
 }
+
+console.log('STYLE', style);
 
 function Button(props: Props) {
   const { children, onClick } = props;

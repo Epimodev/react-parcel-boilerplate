@@ -1,7 +1,5 @@
 import { createElement, useState } from 'react';
-import Icon from 'src/components/Icon';
 import Button from 'src/components/Button';
-import arrow from 'src/icons/arrow.svg';
 
 function Page1() {
   const [count, setCount] = useState(0);
@@ -13,7 +11,6 @@ function Page1() {
     <div>
       <div>Hello Page 1</div>
       <div>
-        <Icon href={arrow} />
         <div>
           <Button onClick={increment}>+</Button>
           <div>{count}</div>
