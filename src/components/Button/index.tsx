@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import React from 'react';
 import * as style from './style.scss';
 
 interface Props {

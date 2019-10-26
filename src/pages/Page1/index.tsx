@@ -1,4 +1,4 @@
-import { createElement, useState } from 'react';
+import React, { useState } from 'react';
 import Icon from 'src/components/Icon';
 import Button from 'src/components/Button';
 import arrow from 'src/icons/arrow.svg';
