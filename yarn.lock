@@ -6478,6 +6478,11 @@ parcel-plugin-compress@^1.0.10:
     iltorb "2.4.3"
     node-zopfli-es "1.0.3"
 
+parcel-plugin-css-modules-type-generator@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-css-modules-type-generator/-/parcel-plugin-css-modules-type-generator-1.1.0.tgz#caf42df56a685c30023b0e2b2678d4f08ac518fe"
+  integrity sha512-FZAfffCOAFmK4CSHp1c47qjTwbjSLv5qJnopDa2rx0SQx8Gr8r6uoxbTGv6Z3TCuNw7h3n6R4M1bGMseBd/zyw==
+
 parcel-plugin-svg-sprite@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/parcel-plugin-svg-sprite/-/parcel-plugin-svg-sprite-1.4.1.tgz#50791fc50689cceade01b7ef1e11869655134b07"

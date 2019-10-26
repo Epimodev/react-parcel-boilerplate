@@ -36,6 +36,7 @@
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "parcel-plugin-compress": "^1.0.10",
+    "parcel-plugin-css-modules-type-generator": "^1.1.0",
     "parcel-plugin-svg-sprite": "^1.4.1",
     "postcss-modules": "^1.4.1",
     "prettier": "^1.18.2",
