@@ -3,7 +3,7 @@ import Page1 from 'src/pages/Page1';
 import 'src/styleUtils/fonts.css';
 import './style.scss';
 
-function Application() {
+function Application(): React.ReactElement {
   return (
     <div>
       <Page1 />
