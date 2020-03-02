@@ -1,7 +1,6 @@
 {
   "src/**/*.{ts,tsx}": [
     "prettier --write",
-    "tslint -e **/*.scss.d.ts -c tslint.json",
-    "git add"
+    "tslint -e **/*.scss.d.ts -c tslint.json"
   ]
 }
