@@ -3,12 +3,12 @@ import Page1 from 'src/pages/Page1';
 import 'src/styleUtils/fonts.css';
 import './style.scss';
 
-function Application(): React.ReactElement {
+const Application: React.FC = () => {
   return (
     <div>
       <Page1 />
     </div>
   );
-}
+};
 
 export default Application;

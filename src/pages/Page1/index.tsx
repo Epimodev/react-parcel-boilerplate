@@ -3,11 +3,11 @@ import Icon from 'src/components/Icon';
 import Button from 'src/components/Button';
 import arrow from 'src/icons/arrow.svg';
 
-function Page1() {
+const Page1: React.FC = () => {
   const [count, setCount] = useState(0);
 
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count - 1);
+  const increment = (): void => setCount(count + 1);
+  const decrement = (): void => setCount(count - 1);
 
   return (
     <div>
@@ -22,6 +22,6 @@ function Page1() {
       </div>
     </div>
   );
-}
+};
 
 export default Page1;

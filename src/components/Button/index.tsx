@@ -6,14 +6,12 @@ interface Props {
   onClick: () => void;
 }
 
-function Button(props: Props) {
-  const { children, onClick } = props;
-
+const Button: React.FC<Props> = ({ children, onClick }) => {
   return (
     <button className={style.button} onClick={onClick}>
       {children}
     </button>
   );
-}
+};
 
 export default Button;

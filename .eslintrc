@@ -12,7 +12,8 @@
     "@typescript-eslint/member-delimiter-style": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/camelcase": 0,
-    "@typescript-eslint/no-empty-function": 1
+    "@typescript-eslint/no-empty-function": 1,
+    "react/prop-types": 0
   },
   "settings": {
     "react": {

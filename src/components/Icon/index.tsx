@@ -5,13 +5,12 @@ interface Props {
   className?: string;
 }
 
-function Icon(props: Props) {
-  const { href, className = '' } = props;
+const Icon: React.FC<Props> = ({ href, className = '' }) => {
   return (
     <svg className={className}>
       <use xlinkHref={href} />
     </svg>
   );
-}
+};
 
 export default Icon;
